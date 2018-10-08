@@ -1,0 +1,12 @@
+decimal=0
+
+tab= 7
+
+print('\tdecimal\tbinary\t\thex')
+
+for decimal in range (0,32):
+    
+    if decimal<=tab:
+        print('\t',decimal,'\t',bin(decimal),'\t','\t',hex(decimal))
+    else:
+        print('\t',decimal,'\t',bin(decimal),'\t',hex(decimal))
